@@ -218,6 +218,38 @@ ul     { list-style: none; }
 .nav-list > li > a i { font-size: 9px; }
 .nav-list > li > a:hover,
 .nav-list > li.has-drop:hover > a { color: var(--teal); }
+/* NAV SEARCH */
+
+.nav-search{
+  display:flex;
+  align-items:center;
+  border:1px solid var(--border);
+  border-radius:6px;
+  overflow:hidden;
+  background:#fff;
+}
+
+.nav-search input{
+  border:none;
+  outline:none;
+  padding:8px 12px;
+  font-size:13px;
+  width:160px;
+  font-family:var(--font-body);
+}
+
+.nav-search button{
+  border:none;
+  background:var(--teal);
+  color:#fff;
+  padding:8px 12px;
+  cursor:pointer;
+  transition:background .2s;
+}
+
+.nav-search button:hover{
+  background:var(--teal-dark);
+}
 
 /* Dropdown */
 .drop-menu {
